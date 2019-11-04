@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    target: 'node',
+    target: 'electron-main',
     entry: { main: './index.js' },
     output: {
         path: path.resolve(__dirname, 'build'),
